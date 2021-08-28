@@ -106,9 +106,17 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            ElevatedButton(
-                onPressed: _decrementCounter,
-                child: Text("Decrement Counter")
+            Row(
+              children: <Widget>[
+                ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary: Colors.red),
+                    onPressed: _decrementCounter,
+                    child: Text(
+                        "Decrement",
+                        style: TextStyle(color: Colors.white)
+                    )
+                )
+              ],
             )
           ],
         ),
