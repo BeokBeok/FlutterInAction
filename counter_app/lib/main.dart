@@ -115,6 +115,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         "Decrement",
                         style: TextStyle(color: Colors.white)
                     )
+                ),
+                ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary: Colors.green),
+                    onPressed: _incrementCounter,
+                    child: Text(
+                      "Increment",
+                      style: TextStyle(color: Colors.white),
+                    )
                 )
               ],
             )
