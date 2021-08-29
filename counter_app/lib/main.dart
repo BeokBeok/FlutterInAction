@@ -105,6 +105,10 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Image.asset(
+              'flutter_logo_1080.png',
+              width: 100.0,
+            ),
             Text(
               'You have pushed the button this many times:',
             ),
